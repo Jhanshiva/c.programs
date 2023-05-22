@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char ch;
+scanf("%c",&ch);
+if((ch>='A||a')&&(ch<='Z||z'))
+printf("alphabet");
+else if((ch>=0)&&(ch<=9))
+printf("digit");
+else 
+printf("special symbol");
+return 0;
+}
